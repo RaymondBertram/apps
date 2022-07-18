@@ -1,11 +1,14 @@
-import { ChuckNorrisJokeGenerator } from "./components/frontend/ChuckNorrisJokeGenerator";
+import { JokeGenerator } from "./components/ChuckNorris/JokeGenerator";
 import "./App.css";
 
 function Jokes() {
   return (
     <div className="app">
       <div className="container">
-        <ChuckNorrisJokeGenerator />
+        <JokeGenerator
+          title="Chuck Norris"
+          api="https://api.chucknorris.io/jokes/random"
+        />
       </div>
     </div>
   );
