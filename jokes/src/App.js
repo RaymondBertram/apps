@@ -6,8 +6,8 @@ function Jokes() {
     <div className="app">
       <div className="container">
         <JokeGenerator
-          title="Chuck Norris"
-          api="https://api.chucknorris.io/jokes/random"
+          title="Own Backend"
+          api="http://localhost:3000/api/getJoke"
         />
       </div>
     </div>
